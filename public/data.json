@@ -1,0 +1,49 @@
+{
+    "title": "Nyårs quiz 2023",
+    "questions": [
+        {
+            "description": "Amerikanska Time magazine utser varje år sin \"Person of the Year\" och i år (2023) blev detta ingen mindre än Taylor Swift.",
+            "question": "Vem var det förra året (2022)?",
+            "ans": "Vlodomyr Zelensky"
+        },
+        {
+            "description": "Så kallade \"Candlestick charts\" används ofta på börsen, varje så kallat \"blockljus\" består av 4 informationspunkter.",
+            "question": "Vilka är dessa?",
+            "ans": "Öppningsvärde, Stängningsvärde, Högsta värde, Lägsta värde",
+            "image": "candlestick_chart.svg"
+        },
+        {
+            "description": "Mount Everest brukar räknas som det högsta berget på planeten med sina ca 8848m över havet, men den har ett grannberg som med ca 8516m är världens fjärde högsta och delar basläger med Everest.",
+            "question": "Vad heter Everest grannberg?",
+            "ans": "Lhotse",
+            "alternatives": [
+                "K2",
+                "Cho Oyu",
+                "Lhotse",
+                "Mouna Kea"
+            ],
+            "image": "everest.png"
+        },
+        {
+            "description": "Den (så kallade) Demokratiska Republiken Kongo (Kongo-Kinshasa) är till ytan det nästa största landet i afrika och gränsar till inte mindre än 9 länder.",
+            "question": "Nämn 5 länder som gränsar till DRC",
+            "ans": "Angola, Burundi, the Central African Republic, the Republic of Congo, Rwanda, South Sudan, Tanzania, Uganda, Zambia",
+            "image": "drc_outline.jpg"
+        },
+        {
+            "description": "I veckan kom det rapporter om att vinylskivsförsäljningen står på topp och förra året (2022) såldes det för första gången på 35år fler LP skivor än CD skivor i USA.",
+            "question": "Ungefär hur många LP skivor såldes förra året (2022) i USA?",
+            "alternatives": [
+                "20 miljoner",
+                "30 miljoner",
+                "40 miljoner",
+                "50 miljoner"
+            ]
+        },
+        {
+            "description": "Nästa år blir det största valåret i världshistorien med val i, bland andra, USA, Indien, EU. Dessutom är det val i Storbrittanien som har haft lite av ett kaos sedan brexit omröstnignen 2016.",
+            "question": "Hur många premierministrar har storbrittanien haft sedan januari 2016?",
+            "ans": "5, David Cameron, Theresa May, Boris Johnson, Liz Truss, Rishi Sunak"
+        }
+    ]
+}
