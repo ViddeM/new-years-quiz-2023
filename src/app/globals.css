@@ -48,3 +48,25 @@ ol {
   justify-content: center;
   background-color: white;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 6px;
+}
+
+@media (min-width: 892px) {
+  main {
+    padding: 6rem;
+  }
+}
+
+.answers-container {
+  margin-top: 1rem;
+}
+
+.question {
+  margin-top: 1rem;
+}

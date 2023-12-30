@@ -3,36 +3,20 @@
     "questions": [
         {
             "description": "Amerikanska Time magazine utser varje år sin \"Person of the Year\" och i år (2023) blev detta ingen mindre än Taylor Swift.",
-            "question": "Vem var det förra året (2022)?",
+            "question": "Vem blev Time Magazines \"Person of the Year\" förra året (2022)?",
             "ans": "Vlodomyr Zelensky"
-        },
-        {
-            "description": "Så kallade \"Candlestick charts\" används ofta på börsen, varje så kallat \"blockljus\" består av 4 informationspunkter.",
-            "question": "Vilka är dessa?",
-            "ans": "Öppningsvärde, Stängningsvärde, Högsta värde, Lägsta värde",
-            "image": "candlestick_chart.svg"
-        },
-        {
-            "description": "Mount Everest brukar räknas som det högsta berget på planeten med sina ca 8848m över havet, men den har ett grannberg som med ca 8516m är världens fjärde högsta och delar basläger med Everest.",
-            "question": "Vad heter Everest grannberg?",
-            "ans": "Lhotse",
-            "alternatives": [
-                "K2",
-                "Cho Oyu",
-                "Lhotse",
-                "Mouna Kea"
-            ],
-            "image": "everest.png"
         },
         {
             "description": "Den (så kallade) Demokratiska Republiken Kongo (Kongo-Kinshasa) är till ytan det nästa största landet i afrika och gränsar till inte mindre än 9 länder.",
             "question": "Nämn 5 länder som gränsar till DRC",
-            "ans": "Angola, Burundi, the Central African Republic, the Republic of Congo, Rwanda, South Sudan, Tanzania, Uganda, Zambia",
+            "ans": "Angola, Burundi, Centralafrikanska republiken, Republiken Kongo (Kongo-Brazzaville), Rwanda, Sydsudan, Tanzania, Uganda, Zambia",
             "image": "drc_outline.jpg"
         },
         {
-            "description": "I veckan kom det rapporter om att vinylskivsförsäljningen står på topp och förra året (2022) såldes det för första gången på 35år fler LP skivor än CD skivor i USA.",
+            "description": "I veckan kom det rapporter om att vinylskivsförsäljningen står på topp och förra året (2022) såldes det för första gången på 35 år fler LP skivor än CD skivor i USA.",
             "question": "Ungefär hur många LP skivor såldes förra året (2022) i USA?",
+            "ans": "40 miljoner",
+            "ansDescription": "Totalt såldes det lite över 41 miljoner.",
             "alternatives": [
                 "20 miljoner",
                 "30 miljoner",
@@ -41,9 +25,63 @@
             ]
         },
         {
-            "description": "Nästa år blir det största valåret i världshistorien med val i, bland andra, USA, Indien, EU. Dessutom är det val i Storbrittanien som har haft lite av ett kaos sedan brexit omröstnignen 2016.",
+            "description": "Nästa år blir det största valåret i världshistorien med val i, bland andra, USA, Indien och EU. Dessutom är det val i Storbrittanien som har haft lite kaos i styret sedan brexit omröstnignen 2016.",
             "question": "Hur många premierministrar har storbrittanien haft sedan januari 2016?",
-            "ans": "5, David Cameron, Theresa May, Boris Johnson, Liz Truss, Rishi Sunak"
+            "ans": "5", 
+            "ansDescription": "David Cameron (avgick i Juli 2016), Theresa May, Boris Johnson, Liz Truss, Rishi Sunak"
+        },
+        {
+            "description": "Mount Everest brukar räknas som det högsta berget på planeten med sina ca 8848m över havet, men den har ett grannberg som med ca 8516m är världens fjärde högsta och delar basläger med Everest.",
+            "question": "Vad heter Everest grannberg?",
+            "ans": "Lhotse",
+            "ansDescription": "K2 är världens näst högsta berg och ligger på gränsen mellan pakistan och Kina. Elbrus är europas högsta berg och ligger i Ryssland. Mouna Kea är världens högsta berg om man mäter från havsbotten och är en av vulkanerna som uppgör Hawaii.",
+            "alternatives": [
+                "K2",
+                "Mount Elbrus",
+                "Lhotse",
+                "Mouna Kea"
+            ],
+            "image": "everest.png"
+        },
+        {
+            "description": "Nu är det snart nytt år och som vi alla vet så börjar det nya året med Januari och så har det varit sedan den Julianska kalendern infördes för över 2000 år sedan.",
+            "question": "Vilken månad började året på i den rommerska kalendern innan införandet av den Julianska kalendern?",
+            "ans": "Mars",
+            "ansDescription": "De saknade månaderna Januari och Februari och istället så hade man ett ospecifierat antal dagar som inte tillhörde någon månad.",
+            "alternatives": [
+                "Februari",
+                "Mars",
+                "Juli",
+                "December"
+            ]
+        },
+        {
+            "description": "Världens fyra största vinproducerande länder är Italien, Spanien, Frankrike och USA och tillsammans står de för över hälften av all världens vin.",
+            "question": "Vilket land är det däremot som konsumerar mest vin?",
+            "ans": "USA",
+            "ansDescription": "I USA konsumerades år 2020 33 miljoner hektoliter vin. Om man tar hänseende till befolkningsmängd dock så är det Portugal det dricks mest vin per capita med 51.9 liter per person."
+        },
+        {
+            "description": "Så kallade \"Candlestick charts\" används ofta på börsen, varje så kallat \"blockljus\" består av 4 informationspunkter.",
+            "question": "Vilka är dessa?",
+            "image": "candlestick_chart.svg",
+            "ans": "Öppningsvärde, Stängningsvärde, Högsta värde, Lägsta värde",
+            "ansDescription": "Det smala strecket representerar högsta/lägsta värden och det tjocka öppnings/stängningsvärden. Är ljuset rött betyder det att stängningsvärdet var lägre än öppningsvärdet."
+        },
+        {
+            "description": "I Sverige finns det nästan 270 tusen öar vilket gör att vi överlägset har flest i världen. Däremot är det inte många av dem som är bebodda.",
+            "question": "Vilken svensk ö hade störst befolkning (2015)?",
+            "ans": "Södertörn",
+            "ansDescription": "Enligt SCB hade Södertörn nästan 800 tusen invånare år 2015, följt av Hisingen på ca 150 tusen."
+        },
+        {
+            "description": "I år släpte den kvarvarande halvan av the Beatles vad de kallade för \"Den sista Beatleslåten\", Now and Then.",
+            "question": "När släptes den senaste \"Beatles\" låten innan det?",
+            "ans": "1996",
+            "ansDescription": "1996 Släptes \"Real Love\", likt årets Now and Then så utgick även den från gamla inspelningar från John Lennon."
         }
-    ]
+    ],
+    "tieBreaker": {
+        
+    }
 }
