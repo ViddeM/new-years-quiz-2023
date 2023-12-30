@@ -30,8 +30,20 @@ export default function Answers() {
     <main>
       <h1>{data.title} - Facit</h1>
       {data.questions.map((question, i) => (
-        <QuestionCard key={i} number={i + 1} {...question} showAnswer={true} />
+        <QuestionCard
+          key={i}
+          number={`Fråga ${i + 1} - Facit`}
+          {...question}
+          showAnswer={true}
+        />
       ))}
+      {data.tieBreaker && (
+        <QuestionCard
+          number={"Utslagsfråga - Facit"}
+          {...data.tieBreaker}
+          showAnswer={true}
+        />
+      )}
     </main>
   );
 }

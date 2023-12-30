@@ -82,6 +82,9 @@
         }
     ],
     "tieBreaker": {
-        
+        "description": "",
+        "question": "Hur högt är Kilimanjaro, Afrikas högsta berg? (Närmast vinner!)",
+        "image": "kilimanjaro.jpg",
+        "ans": "5895m"
     }
 }

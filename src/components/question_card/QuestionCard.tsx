@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export interface QuestionCardProps {
-  number: number;
+  number: string;
   question: string;
   description: string;
   image?: string;
@@ -23,7 +23,7 @@ export const QuestionCard = ({
 }: QuestionCardProps) => {
   return (
     <div className={"card question-card"}>
-      <h2>Fråga {number}</h2>
+      <h2>{number}</h2>
       <p>{description}</p>
       <p className="question">
         <b>{question}</b>
