@@ -83,8 +83,8 @@
     ],
     "tieBreaker": {
         "description": "",
-        "question": "Hur många liter starköl har systembolaget sålt det senaste året (Q3/2022 - Q3/2023)?",
-        "image": "",
-        "ans": "288 150 000 liter"
+        "question": "Hur högt är Kilimanjaro, Afrikas högsta berg? (Närmast vinner!)",
+        "image": "kilimanjaro.jpg",
+        "ans": "5895m"
     }
 }

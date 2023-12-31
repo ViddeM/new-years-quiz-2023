@@ -7,7 +7,6 @@ import Link from "next/link";
 
 export default function Answers() {
   const params = useParams<{ id: string }>();
-  console.log("PARAMS", params);
   if (params.id !== "YW5zd2VyCg") {
     return (
       <main>
